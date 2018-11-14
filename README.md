@@ -1,5 +1,5 @@
 # Artsy
-Project from CS course in 2016 
+Project from CSCI course at UGA in 2016 
 
 ## Project Description
 

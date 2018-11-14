@@ -1,0 +1,1 @@
+javac -d /home/ugrads/stone/stone-callahan-p3/target/scala-2.10/classes -classpath /home/ugrads/stone/stone-callahan-p3/target/scala-2.10/classes:/home/ugrads/stone/.sbt/boot/scala-2.10.4/lib/scala-library.jar /home/ugrads/stone/stone-callahan-p3/src/main/java/cs1302/p2/ControlPane.java

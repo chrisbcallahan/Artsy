@@ -1,0 +1,19 @@
+package cs1302.p2;
+
+import javafx.stage.Stage;
+import javafx.scene.layout.BorderPane;
+
+public class ControlPane extends BorderPane
+{
+    ImageManager imgManager;
+    //MyArtsy myArtsy; TODO - Uncomment after MyArtsy is implemented.
+
+    //TODO - Add myArtsy to Constructor.
+    public ControlPane(ImageManager imgManager, Stage stage)
+    {
+	this.imgManager = imgManager;
+	AppMenuBar menu = new AppMenuBar(imgManager, stage);
+	
+	this.setTop(menu);
+    }
+}
